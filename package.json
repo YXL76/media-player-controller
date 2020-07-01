@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Rafostar/media-player-controller.git"
+    "url": "git+https://github.com/YXL76/vlc-player-controller.git"
   },
   "keywords": [
     "media",
@@ -24,9 +24,9 @@
   "author": "YXL",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Rafostar/media-player-controller/issues"
+    "url": "https://github.com/YXL76/vlc-player-controller/issues"
   },
-  "homepage": "https://github.com/Rafostar/media-player-controller#readme",
+  "homepage": "https://github.com/YXL76/vlc-player-controllerr#readme",
   "dependencies": {
     "debug": "^4.1.1",
     "xml2js": "^0.4.23"

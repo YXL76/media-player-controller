@@ -1,6 +1,6 @@
 {
   "name": "media-player-controller",
-  "version": "1.5.1",
+  "version": "0.0.1",
   "description": "Spawn media player app and control playback",
   "main": "index.js",
   "files": [
@@ -21,7 +21,7 @@
     "mpv",
     "vlc"
   ],
-  "author": "Rafostar",
+  "author": "YXL",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Rafostar/media-player-controller/issues"

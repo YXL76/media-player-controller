@@ -91,6 +91,9 @@ module.exports = {
 
       previous[key] = value;
       this.emit("playback", { name: key, value: value });
+      if (value === true && key === "eof-reached") {
+        this.emit("playback-ended");
+      }
     }
 
     previous.repeat = result.repeat === true || result.repeat === "true";

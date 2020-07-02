@@ -278,6 +278,7 @@ module.exports = {
 
   setVolume: function (value, cb) {
     cb = cb || noop;
+    value = value > 100 ? 1.0 : value / 100.0;
     value = value > 0 ? parseInt(value * 256) : 0;
 
     this.command(["volume", `val=${value}`], (err) => {

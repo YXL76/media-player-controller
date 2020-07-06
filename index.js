@@ -27,7 +27,7 @@ module.exports = class PlayerController extends PlayerSocket {
     this.prevProbeAt = null;
     this.probeTime = 950;
     this._debug = debug;
-    this.media = media;
+    this.media = this.opts.media;
 
     if (debug.enabled) this.on("playback", debug);
   }

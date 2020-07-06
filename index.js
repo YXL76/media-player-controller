@@ -27,6 +27,7 @@ module.exports = class PlayerController extends PlayerSocket {
     this.prevProbeAt = null;
     this.probeTime = 950;
     this._debug = debug;
+    this.media = media;
 
     if (debug.enabled) this.on("playback", debug);
   }
@@ -163,6 +164,8 @@ module.exports = class PlayerController extends PlayerSocket {
       cb = media;
       media = this.opts.media;
     }
+
+    this.media = media;
 
     cb = cb || noop;
 
